@@ -541,6 +541,7 @@ ImageSourceRef ImageIoRegistrar::Inst::createSource( DataSourceRef dataSource, I
 	}
 
 	assert( 0 && "unreachable" );
+	return nullptr;
 }
 
 void ImageIoRegistrar::registerSourceType( string extension, SourceCreationFunc func, int32_t priority )

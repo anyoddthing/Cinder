@@ -10,6 +10,8 @@ xcuserdata/
 
 build/
 lib/libcinder*.a
+lib/libdyncinder*.dylib
+lib/libdyncinder*.dylib.*
 lib/msw/x86/cinder*.lib
 lib/msw/x64/cinder*.lib
 lib/msw/x86/cinder*.idb
@@ -42,3 +44,4 @@ docs/*/node_modules
 blocks/
 !blocks/[__AppTemplates,Box2D,Cairo,FMOD,LocationManager,MotionManager,OSC,QuickTime,TUIO]
 
+xcode/DerivedData
