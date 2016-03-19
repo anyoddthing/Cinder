@@ -1051,6 +1051,16 @@
 		43F78EF71516DAE200EB63B5 /* Json.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F78EF51516DAE200EB63B5 /* Json.h */; };
 		43F78EF81516DAE200EB63B5 /* Json.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F78EF51516DAE200EB63B5 /* Json.h */; };
 		5391FE660E95CB01002A13D5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D6A5FE840307C02AAC07 /* AppKit.framework */; };
+		65BB7B101C9D77CA005B0C55 /* AvfUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 006D704319942BF5008149E2 /* AvfUtils.mm */; };
+		65BB7B111C9D77D0005B0C55 /* AvfWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 007364D11AC0B8D500A3C155 /* AvfWriter.mm */; };
+		65BB7B121C9D7872005B0C55 /* MovieWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 006D704419942BF5008149E2 /* MovieWriter.cpp */; };
+		65BB7B131C9D78AB005B0C55 /* Params.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 003ADB63103884C800ACF6F2 /* Params.cpp */; };
+		65BB7B141C9D78BD005B0C55 /* QuickTimeGlImplAvf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 006D704519942BF5008149E2 /* QuickTimeGlImplAvf.cpp */; };
+		65BB7B151C9D78C1005B0C55 /* QuickTimeGlImplLegacy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 006D704619942BF5008149E2 /* QuickTimeGlImplLegacy.cpp */; };
+		65BB7B161C9D78C5005B0C55 /* QuickTimeImplAvf.mm in Sources */ = {isa = PBXBuildFile; fileRef = 006D704719942BF5008149E2 /* QuickTimeImplAvf.mm */; };
+		65BB7B171C9D78C9005B0C55 /* QuickTimeImplLegacy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 006D704819942BF5008149E2 /* QuickTimeImplLegacy.cpp */; };
+		65BB7B181C9D78D0005B0C55 /* QuickTimeUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 006D704919942BF5008149E2 /* QuickTimeUtils.cpp */; };
+		65BB7B191C9D7904005B0C55 /* Svg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008B43A714F5F8F800B55B07 /* Svg.cpp */; };
 		65EF6D9D1C8B7F98005CC6CD /* AppBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1181F7C71A7F8792001BBFA2 /* AppBase.cpp */; };
 		65EF6D9F1C8B7F98005CC6CD /* KeyEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 007B09830E957B9A0052257E /* KeyEvent.cpp */; };
 		65EF6DA01C8B7F98005CC6CD /* Platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1116CC4A1A5F154000023856 /* Platform.cpp */; };
@@ -1111,7 +1121,6 @@
 		65EF6DE21C8B88AC005CC6CD /* CameraUi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00B8C3971AEB4F240007ADAA /* CameraUi.cpp */; };
 		65EF6DE31C8B88AC005CC6CD /* Capture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 007438400EA7924F005DD3E6 /* Capture.cpp */; };
 		65EF6DE41C8B88AC005CC6CD /* CaptureImplAvFoundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7FA5FC112124A790065683B /* CaptureImplAvFoundation.mm */; };
-		65EF6DE51C8B88AC005CC6CD /* CaptureImplCocoaDummy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00E5A41D163F5AC500AACB3A /* CaptureImplCocoaDummy.mm */; };
 		65EF6DE61C8B88AC005CC6CD /* Channel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008CE83C0E94672E00644A05 /* Channel.cpp */; };
 		65EF6DE71C8B88AC005CC6CD /* CinderAssert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 111A5EF0191F722E005C3166 /* CinderAssert.cpp */; };
 		65EF6DE81C8B88AC005CC6CD /* CinderMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43C4323F1450A8DA0095B260 /* CinderMath.cpp */; };
@@ -1200,7 +1209,6 @@
 		65EF6E431C8B89DE005CC6CD /* draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31987EA1ACB9D8B00DEB9EF /* draw.cpp */; };
 		65EF6E441C8B89DE005CC6CD /* Environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0003F3C31992D64100647C8B /* Environment.cpp */; };
 		65EF6E451C8B89DE005CC6CD /* EnvironmentCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0003F3C41992D64100647C8B /* EnvironmentCore.cpp */; };
-		65EF6E461C8B89DE005CC6CD /* EnvironmentEs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AD0D2D19F051B100022D9F /* EnvironmentEs.cpp */; };
 		65EF6E471C8B89DE005CC6CD /* Fbo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0003F3C61992D64100647C8B /* Fbo.cpp */; };
 		65EF6E481C8B89DE005CC6CD /* GlslProg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0003F3C81992D64100647C8B /* GlslProg.cpp */; };
 		65EF6E491C8B89DE005CC6CD /* Pbo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0003F3C91992D64100647C8B /* Pbo.cpp */; };
@@ -3530,6 +3538,7 @@
 				65EF6D8E1C8B7EE9005CC6CD /* Sources */,
 				65EF6D8F1C8B7EE9005CC6CD /* Frameworks */,
 				65EF6D901C8B7EE9005CC6CD /* Headers */,
+				65BB7B1B1C9D835F005B0C55 /* Create hard link in /usr/local/lib */,
 			);
 			buildRules = (
 			);
@@ -3592,6 +3601,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65BB7B1B1C9D835F005B0C55 /* Create hard link in /usr/local/lib */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Create hard link in /usr/local/lib";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -f /usr/local/lib/libdyncinder.dylib ]\nthen\n    rm /usr/local/lib/libdyncinder.dylib\nfi\n\nln $BUILT_PRODUCTS_DIR/libdyncinder.dylib /usr/local/lib/libdyncinder.dylib\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		007050461114F93F003FCAE4 /* Sources */ = {
@@ -3986,6 +4012,8 @@
 				65EF6DA61C8B7FEF005CC6CD /* AppImplMac.mm in Sources */,
 				65EF6DA41C8B7FEF005CC6CD /* AppMac.cpp in Sources */,
 				65EF6DDB1C8B88AC005CC6CD /* Area.cpp in Sources */,
+				65BB7B101C9D77CA005B0C55 /* AvfUtils.mm in Sources */,
+				65BB7B111C9D77D0005B0C55 /* AvfWriter.mm in Sources */,
 				65EF6DDC1C8B88AC005CC6CD /* BandedMatrix.cpp in Sources */,
 				65EF6DDD1C8B88AC005CC6CD /* Base64.cpp in Sources */,
 				65EF6E3E1C8B89DE005CC6CD /* Batch.cpp in Sources */,
@@ -4005,7 +4033,6 @@
 				65EF6DE21C8B88AC005CC6CD /* CameraUi.cpp in Sources */,
 				65EF6DE31C8B88AC005CC6CD /* Capture.cpp in Sources */,
 				65EF6DE41C8B88AC005CC6CD /* CaptureImplAvFoundation.mm in Sources */,
-				65EF6DE51C8B88AC005CC6CD /* CaptureImplCocoaDummy.mm in Sources */,
 				65EF6DE61C8B88AC005CC6CD /* Channel.cpp in Sources */,
 				65EF6E281C8B893C005CC6CD /* ChannelRouterNode.cpp in Sources */,
 				65EF6E5E1C8B8A01005CC6CD /* Checkerboard.cpp in Sources */,
@@ -4037,7 +4064,6 @@
 				65EF6E6D1C8B8AD5005CC6CD /* envelope.c in Sources */,
 				65EF6E441C8B89DE005CC6CD /* Environment.cpp in Sources */,
 				65EF6E451C8B89DE005CC6CD /* EnvironmentCore.cpp in Sources */,
-				65EF6E461C8B89DE005CC6CD /* EnvironmentEs.cpp in Sources */,
 				65EF6DEF1C8B88AC005CC6CD /* Exception.cpp in Sources */,
 				65EF6E471C8B89DE005CC6CD /* Fbo.cpp in Sources */,
 				65EF6E271C8B8932005CC6CD /* Fft.cpp in Sources */,
@@ -4084,12 +4110,14 @@
 				65EF6E751C8B8AD5005CC6CD /* mdct.c in Sources */,
 				65EF6DD11C8B83AE005CC6CD /* mesh.c in Sources */,
 				65EF6E321C8B893C005CC6CD /* MonitorNode.cpp in Sources */,
+				65BB7B121C9D7872005B0C55 /* MovieWriter.cpp in Sources */,
 				65EF6E301C8B893C005CC6CD /* Node.cpp in Sources */,
 				65EF6E311C8B893C005CC6CD /* NodeMath.cpp in Sources */,
 				65EF6E001C8B88AC005CC6CD /* ObjLoader.cpp in Sources */,
 				65EF6E331C8B893C005CC6CD /* OutputNode.cpp in Sources */,
 				65EF6E341C8B893C005CC6CD /* PanNode.cpp in Sources */,
 				65EF6E351C8B893C005CC6CD /* Param.cpp in Sources */,
+				65BB7B131C9D78AB005B0C55 /* Params.cpp in Sources */,
 				65EF6E011C8B88AC005CC6CD /* Path2d.cpp in Sources */,
 				65EF6E491C8B89DE005CC6CD /* Pbo.cpp in Sources */,
 				65EF6E021C8B88AC005CC6CD /* Perlin.cpp in Sources */,
@@ -4101,6 +4129,11 @@
 				65EF6DD21C8B83AE005CC6CD /* priorityq.c in Sources */,
 				65EF6E761C8B8AD5005CC6CD /* psy.c in Sources */,
 				65EF6E4A1C8B89DE005CC6CD /* Query.cpp in Sources */,
+				65BB7B141C9D78BD005B0C55 /* QuickTimeGlImplAvf.cpp in Sources */,
+				65BB7B151C9D78C1005B0C55 /* QuickTimeGlImplLegacy.cpp in Sources */,
+				65BB7B161C9D78C5005B0C55 /* QuickTimeImplAvf.mm in Sources */,
+				65BB7B171C9D78C9005B0C55 /* QuickTimeImplLegacy.cpp in Sources */,
+				65BB7B181C9D78D0005B0C55 /* QuickTimeUtils.cpp in Sources */,
 				65EF6E7F1C8B8AF8005CC6CD /* r8bbase.cpp in Sources */,
 				65EF6E051C8B88AC005CC6CD /* Rand.cpp in Sources */,
 				65EF6E061C8B88AC005CC6CD /* Ray.cpp in Sources */,
@@ -4126,6 +4159,7 @@
 				65EF6E0B1C8B88AC005CC6CD /* Sphere.cpp in Sources */,
 				65EF6E0C1C8B88AC005CC6CD /* Stream.cpp in Sources */,
 				65EF6E0D1C8B88AC005CC6CD /* Surface.cpp in Sources */,
+				65BB7B191C9D7904005B0C55 /* Svg.cpp in Sources */,
 				65EF6DD31C8B83AE005CC6CD /* sweep.c in Sources */,
 				65EF6E4E1C8B89DE005CC6CD /* Sync.cpp in Sources */,
 				65EF6E7B1C8B8AD5005CC6CD /* synthesis.c in Sources */,
