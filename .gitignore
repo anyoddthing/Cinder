@@ -44,4 +44,4 @@ docs/*/node_modules
 blocks/
 !blocks/[__AppTemplates,Box2D,Cairo,FMOD,LocationManager,MotionManager,OSC,QuickTime,TUIO]
 
-xcode/DerivedData
+DerivedData*
