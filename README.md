@@ -4,7 +4,7 @@ This is a fork of cinderlib which adds a MacOS target that builds cinder as a dy
 
 ## Usage
 
-- Open the cinder in XCode and build the dyncinder target. This will build an create a hardlink of cinder `/usr/local/lib/libdyncinder.dylib`
+- Open the cinder project in XCode and build the dyncinder target. This will build and create a hardlink of cinder `/usr/local/lib/libdyncinder.dylib`
 - In your mac target of your cinder app
   - Remove cinder from `Other Linker Flags`
   - Add `/usr/local/lib` to `Library Search Path`
