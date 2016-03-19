@@ -1,3 +1,15 @@
+# Fork Info
+
+This is a fork of cinderlib which adds a MacOS target that builds cinder as a dynaic library to reduce link times when building.
+
+## Usage
+
+- Open the cinder in XCode and build the dyncinder target. This will build an create a hardlink of cinder `/usr/local/lib/libdyncinder.dylib`
+- In your mac target of your cinder app
+  - Remove cinder from `Other Linker Flags`
+  - Add `/usr/local/lib` to `Library Search Path`
+  - Drag `/usr/local/lib/libdyncinder.dylib` in the `Linked Frameworks and Libraries` section in the `General` tab
+
 ### Cinder 0.9.1dev: [libcinder.org](http://libcinder.org)
 
 <p align="center">
